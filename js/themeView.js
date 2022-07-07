@@ -5,7 +5,6 @@ export default class ThemeView extends Backbone.View {
   className() {}
 
   initialize() {
-    // Making a test
     this.setStyles();
 
     this.listenTo(Adapt, {
